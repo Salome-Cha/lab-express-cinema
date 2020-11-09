@@ -1,0 +1,29 @@
+<div class='container title-container'>
+<h1 class= "main-title">Ironhack Cinema </h1>
+</div>
+
+<h3 class="subtitle"> Click on the movie to check the showtimes! </h3>
+
+<hr>
+
+<div class="card-deck-wrapper container">
+    <div class="card-deck">
+
+
+{{#each movies}}
+<div>
+
+<div class="card" style="width: 14rem;">
+  <img class="card-img-top" src="{{image}}">
+    <div class="card-body container">
+        <h5 class="card-title"> {{title}} </h5>
+        <a href="/movieDetails/{{_id}}"> See more</a>
+    </div>
+</div>
+
+
+</div>
+{{/each}}
+
+</div>
+</div>

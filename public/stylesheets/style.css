@@ -1,0 +1,92 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+
+.main-content {
+  height: 1000px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage {
+  background-image: url(/images/cinema.jpg);
+  background-size: cover;
+  height: 700px;
+  margin: 0;
+}
+
+.homepage-title{
+font-size: 66px;
+color: white;
+position: relative;
+float: right;
+right: 90px;
+top: 40px;
+}
+
+.enter-button{
+font-size: 16px;
+color: rgb(139, 139, 197);
+position: relative;
+top: 300px;
+float: right;
+left: 100px;
+background-color: white;
+padding: 15px 30px;
+text-decoration: none;
+border-radius: 25px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.main-title {
+  margin-top: 40px;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  padding: 20px 45px;
+
+}
+
+.subtitle {
+  text-align: center;
+  color: grey;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+
+.card {
+  margin: 30px;
+}
+
+.card-deck {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.float-image {
+  float: left;
+  width: 200 px;
+  height: auto;
+}
+
+.detail-content {
+  float: right;
+}

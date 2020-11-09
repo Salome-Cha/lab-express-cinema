@@ -1,0 +1,31 @@
+
+<a href="/movies"> Go back </a>
+
+<div class="raw main-content">
+
+    <div class="col-md-4">
+            <img src="{{OneMovie.image}}" />
+    <div>
+ 
+   <div class="col-md-8">
+        <div class="detail-content">
+                {{OneMovie.title}}
+                {{OneMovie.director}}
+
+
+                <h6> Stars: </h6>
+                <ul>
+                    <li>
+                {{OneMovie.stars}}
+                    </li>
+                </ul>
+
+             <h6> Description: </h6>
+                {{OneMovie.description}}
+
+                <h6> Movies Showtime: </h6>
+                {{OneMovie.showtimes}}
+
+        </div>
+    </div>
+</div>
