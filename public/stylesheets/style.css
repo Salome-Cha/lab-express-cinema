@@ -90,3 +90,38 @@ border-radius: 25px;
 .detail-content {
   float: right;
 }
+
+#main-content-movie-details {
+  display: flex;
+  margin-top: 70px;
+}
+
+#go-back-link {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 130px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+h5{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+h4{
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
